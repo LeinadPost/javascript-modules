@@ -1,0 +1,54 @@
+section {
+    display: flex;
+    padding: 5px 40px;
+    justify-content: space-between;
+}
+
+.image img {
+    height: 400px;
+    width: 500px;
+    border: 2px solid;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.landInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+
+}
+
+ .landInfo button {
+    margin: 0px 15px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(310deg, orange, red);
+    
+}
+
+ .landInfo button a {
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+}
+
+.landInfo h1 {
+    font-size: 40px;
+    color: white
+
+}
+
+.landInfo p {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
